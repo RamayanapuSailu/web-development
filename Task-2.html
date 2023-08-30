@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <center><title>College Admission Form</title></center>
+</head>
+<body>
+    <h1>College Admission Form</h1>
+    <form action="submit.php" method="post">
+        <h2>Personal Information:</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="full_name" name="full_name" required><br>
+        <label for="name">Father Name:</label>
+        <input type="text" id="full_name" name="full_name" required><br>
+        
+        <label for="phone number">Phone number:</label>
+        <input type="phone number" id="phone number" name="phone number" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <h2><label>Program of Interest:</label></h2>
+        <select name="program" required>
+            <option value="computer_science">Computer Science</option>
+            <option value="engineering">Engineering</option>
+            <option value="business">Business</option>
+        </select><br><br>
+
+        <h2><label>Address:</label></h2>
+        <label for="door number">Door Number:</label>
+        <input type="integer"><br>
+        <label for="nadar">Nagar:</label>
+        <input type="text"><br>
+        <label for="mandal">Mandal:</label>
+        <input type="text"><br>
+        <label for="district">District:</label>
+        <input type="text"><br>
+
+        <h2><label >Signature:</label></h2>
+        <label for="signature">Student Signature:</label>
+        <input type="text"><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+          </html>
